@@ -1,0 +1,20 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated monitoring logs and packet captures
+alerts_log.csv
+*.pcap
+*.pcapng
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
